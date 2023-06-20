@@ -1,0 +1,15 @@
+<link rel='stylesheet' href='/content/app.css' />
+
+<!--navbar-->
+<%- include('navbar') %>
+
+<div class="center-container">
+  <h1 class="title">Welcome to the <%= title%> page</h1>
+  <div class="profile">
+    <img src="/assets/images/profile.png" alt="Profile Picture">
+  </div>
+  <div class="description">
+    <p><%= description %></p>
+    <a href="/assets/resume.pdf" target="_blank">Download Resume (PDF)</a>
+  </div>
+</div>

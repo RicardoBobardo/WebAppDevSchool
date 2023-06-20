@@ -1,0 +1,46 @@
+<!--Ricardo Zevallos
+301214157
+LAST UPDATED: 20/06/2023
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="/content/app.css">
+</head>
+
+<%- include('navbar') %>
+<body>
+  <div class="container">
+    <h1>Welcome to the Contact page</h1>
+
+    <!-- Contact Information Panel -->
+    <div class="panel">
+      <h2>Contact Information</h2>
+      <p>Email: Ricardozevallos94@gmail.com</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="form">
+      <h2>Contact Form</h2>
+      <form action="/" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

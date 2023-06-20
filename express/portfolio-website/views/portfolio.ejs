@@ -1,0 +1,47 @@
+
+<!--Ricardo Zevallos
+301214157
+LAST UPDATED: 20/06/2023
+-->
+
+
+
+<!-- not sure what to write here other than its the portfolio page that holds the information i wanted it to hold i could have intergrated the project 1,2, and 3 in the index providing each description there but i felt like it would add unneccasry bulk to the index file, so i decided to add it to here in html instead -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="/content/app.css">
+</head>
+<body>
+  <%- include('navbar') %>
+
+  <h1 class="title">Welcome to the <%= title%> page</h1>
+
+  <div class="description">
+    <p><%= description %></p>
+  </div>
+
+
+  <section class="project">
+    <h2>Project 1: Linux operation</h2>
+    <p>This project involved operating a virtual machine and appointing oneself as an admin and creating multiple basic programs(mainly simple programes that echo information, creating tables, and random number generators), creating directories, and eventually creating a website that utilizes HTML files you've placed in said directories. </p>
+    <img src="/assets/images/george1.jpg" alt="Project 1 Image">
+  </section>
+
+  <section class="project">
+    <h2>Project 2: Database creation</h2>
+    <p>This second project I'm choosing is an SQL based database. The purpose of the assignment was to create an HR database based on a model presented. The assignments purpose was to see if we could properly construct a database accodring to the directions provided and ensuring that the database was easy to navigate and to operate.</p>
+    <img src="/assets/images/george2.jpg" alt="Project 2 Image">
+  </section>
+
+  <section class="project">
+    <h2>Project 3: This Website :D</h2>
+    <p>This website is an ongoing assignment/project that I will attempt to keep up with post graduation as it is a great resource in showing employers my skills in web development. Initially I was going to add a different web project that I had worked on in the past but it was very simple and used HTML and basic CSS. This current project builds upon that knowledge involving NODEJS and ExpressJS to help properly organize and create a website while being agile doing so. (You dont get a picture of the website, you are in it!)</p>
+    <img src="/assets/images/george3.jpg" alt="Project 3 Image">
+  </section>
+</body>
+</html>

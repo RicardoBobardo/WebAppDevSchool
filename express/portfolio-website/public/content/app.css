@@ -1,0 +1,107 @@
+/*Ricardo Zevallos
+301214157
+LAST UPDATED: 20/06/2023
+
+*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #8bd6c7;
+  }
+  
+  .navbar {
+    background-color: #1ABC9C;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .navbar nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    max-width: 200px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar .nav-links li:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .navbar .nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .container .profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .container .description {
+    margin-bottom: 20px;
+    
+  }
+  .description {
+    margin-bottom: 20px;
+    max-width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .project {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
